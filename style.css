@@ -3,12 +3,14 @@
     margin: 0px;
     padding: 0px;
    }
-   #wrapper{
+   #wrapper{padding: 15px;
     width: 950px;
+    height: 600px;
     background-color: silver;
-    margin: 0px auto;
+    margin: 15px auto;
    }
    #header{
+    margin-bottom: 15px;
     min-height: 150px;
     background-color: green;
    }
@@ -17,19 +19,26 @@
     width: 200px;
     background-color: blue;
    }
-   #main_content{
+   #main_content{padding: 15px;
+    margin-left:25%;
+    margin-top: -31.5%;
     min-height: 400px;
-    width: 700px;
+    width: 680px;
     background-color: red;
    }
-   .subcontents{
-    min-height: 200px;
-    width: 210px;
+   .subcontents{ 
+    padding: 10px;
+    height: 200px;
+    width: 200px;
     background-color: yellow;
+    display:inline-block
+    
    }
    #advertisement{
+    margin-top: 25px;
+    margin-bottom: 0px;
     min-height: 120px;
-    width: 660px;
+    width: 670px;
     background-color: purple;
    }
    
